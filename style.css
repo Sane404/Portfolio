@@ -107,7 +107,7 @@ main{
     height: 80px;
     border-radius: 50%;
     background-color: var(--clr-main);
-    background-image: url('/assets/me.jpg');
+    background-image: url('assets/me.jpg');
     background-size: cover;
     background-position: 80% 60%;
 }
