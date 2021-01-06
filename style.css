@@ -227,7 +227,7 @@ main{
 .bg_about a{
     margin-top: 10px;
     text-decoration: none;
-    color:var(--clr-secondary);
+    color:white;
     background-color:var(--clr-main);
     padding: 5px;
 }
