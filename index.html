@@ -6,39 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="assets/favicon.svg"/>
-    <link rel="icon" type="image/png" href="https://example.com/assets/favicon.svg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="icon" type="image/png" href="assets/favicon.svg" />
+    <link rel="icon" type="image/png" href="https://example.com/assets/favicon.svg" />
     <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <div class="burger">
-            <div class="line line1"></div>
-            <div class="line line2"></div>
-            <div class="line line3"></div>
+        <div class="wrapper">
+            <div class="social_links">
+                <a href="https://telegram.me/Al_ex_Ash">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://github.com/Sane404">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="burger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+            <ul class='nav_list'>
+                <li class="nav_link"><a href='#about_me'>About me</a></li>
+                <li class="nav_link"><a href='#skills'>Skills</a></li>
+                <li class="nav_link"><a href='#projects'>Projects</a></li>
+                <li class="nav_link"><a href='#at_me'>Contact me</a></li>
+            </ul>
         </div>
-        <ul class='nav_list'>
-            <li class="nav_link"><a href='#about_me'>About me</a></li>
-            <li class="nav_link"><a href='#skills'>Skills</a></li>
-            <li class="nav_link"><a href='#projects'>Projects</a></li>
-            <li class="nav_link"><a href='#at_me'>Contact me</a></li>
-        </ul>
-        
     </header>
     <main>
         <article id='about_me'>
             <div class="card_me">
                 <div class="img"></div>
-                <h2 class="name">Alexandr Shobotenko</h2>
-                <span class="job_title">Front-end developer</span>
-                <p class="description">24 years old. Finished courses at CyberBionicSystematics in December 2019. Had 2 month of work experience at Webjump.com.ua, where i worked with Wordpress and a bit of PHP. Also had a chance to finish my first ever real project there.</p>
+                <div class="info">
+                    <h2 class="name">Alexandr Shobotenko</h2>
+                    <span class="job_title">Front-end developer</span>
+                    <p class="description">"24 years old. Finished courses at CyberBionicSystematics in December 2019.
+                        Had 2 month of work experience at Webjump.com.ua, where I worked with Wordpress and a bit of
+                        PHP.
+                        My responsibilities were : maintaining current websites (mostly javascript and css related
+                        tasks),
+                        creating new websites (finished my first real project u can view below).
+                        I am eager to learn more beyond what I already know and meet new people with same passion as me
+                        :)
+                        "</p>
+                </div>
             </div>
             <div class="card_lang">
                 <h2>Languages</h2>
                 <div class="lang">
                     <p>English</p>
-                    <div class="indicator_eng">
+                    <div class="indicators">
                         <div class="indicator filled"></div>
                         <div class="indicator filled"></div>
                         <div class="indicator filled"></div>
@@ -49,7 +71,7 @@
                 </div>
                 <div class="lang">
                     <p>Ukrainian</p>
-                    <div class="indicator_eng">
+                    <div class="indicators">
                         <div class="indicator filled"></div>
                         <div class="indicator filled"></div>
                         <div class="indicator filled"></div>
@@ -60,7 +82,7 @@
                 </div>
                 <div class="lang">
                     <p>Russian</p>
-                    <div class="indicator_eng">
+                    <div class="indicators">
                         <div class="indicator filled"></div>
                         <div class="indicator filled"></div>
                         <div class="indicator filled"></div>
@@ -71,178 +93,139 @@
                 </div>
             </div>
         </article>
-        <div class="skills" id ='skills'>Skills</div>
+
         <div class="skills_wrap">
-            <div class="skill">
-                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
-                    style="enable-background:new 0 0 50 50;" xml:space="preserve">
-                    <text transform="matrix(0.9352 0 0 1 2.5 29.0508)" class="html_text">&lt;/html&gt;</text>
-                    <style type="text/css"></style>
-                </svg>
-                <span>HyperText Markup Language
-                </span>
-            </div>
-            <div class="skill">
-                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
-                    style="enable-background:new 0 0 50 50;" xml:space="preserve">
-                    <text transform="matrix(1.0245 0 0 1 9.999 29.0498)" class="css_text">{CSS}</text>
-                    <style type="text/css"></style>
-                </svg>
-                <span>Cascading Style Sheets
-                </span>
-            </div>
-            <div class="skill">
-                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
-                    style="enable-background:new 0 0 50 50;" xml:space="preserve">
-                    <style type="text/css">
-                        .js_rect {
-                            fill: none;
-                           
-                            stroke-miterlimit: 10;
-                        }
-
-                        .js_text {
-                            
-                            font-size: 19px;
-                        }
-                    </style>
-                    <rect x="0.5" y="0.5" class="js_rect" width="49" height="49" />
-                    <text transform="matrix(1.265 0 0 1 22 47)" class="js_text">JS</text>
-                </svg>
-                <span>Javascript
-                </span>
-            </div>
-            <div class="skill">
-                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
-                    style="enable-background:new 0 0 50 50;" xml:space="preserve">
-                    <style type="text/css">
-                        .ts_rect {
-                            fill: none;
-                            
-                            stroke-miterlimit: 10;
-                        }
-
-                        .ts_text {
-                            font-size: 19px;
-                        }
-                    </style>
-                    <rect x="0.5" y="0.5" class="ts_rect" width="49" height="49" />
-                    <text transform="matrix(1.265 0 0 1 20.5 47)" class="ts_text">TS</text>
-                </svg>
-                <span>Typescript
-                </span>
-            </div>
-            <div class="skill">
-                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
-                    style="enable-background:new 0 0 50 50;" xml:space="preserve">
-                    <style type="text/css">
-                        .angular {
-                            fill: none;
-                            
-                            stroke-miterlimit: 10;
-                        }
-
-                        .angular_text {
-                            
-                            font-size: 26px;
-                        }
-                    </style>
-                    <polygon class="angular" points="40,37 25,49 8.3,37 5,13 25,1 45,13 " />
-                    <text transform="matrix(1 0 0 1 16 34)" class="angular_text">A</text>
-                </svg>
-                <span>Angular
-                </span>
-            </div>
-            <div class="skill">
-                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
-                    style="enable-background:new 0 0 50 50;" xml:space="preserve">
-                    <style type="text/css">
-                        .wp {
-                            fill: none;
-                            
-                            stroke-miterlimit: 10;
-                        }
-
-                        .wp_text {
-                            font-size: 30px;
-                        }
-                    </style>
-                    <ellipse class="wp" cx="25.5" cy="25.3" rx="23.9" ry="24.2" />
-                    <text transform="matrix(1.1118 0 0 1 8 38)" class="wp_text">W</text>
-                </svg>
-                <span>Wordpress
-                </span>
+            <div class="wrapper">
+                <div class="skill html">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML</h4>
+                </div>
+                <div class="skill css">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS</h4>
+                </div>
+                <div class="skill js">
+                    <i class="fab fa-js"></i>
+                    <h4>Javascript</h4>
+                </div>
+                <div class="skill ts">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" focusable="false" width="1em" height="1em"
+                        style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                        <path class='ts_bg' fill="#f0f0f0" d="M0 128v128h256V0H0z" />
+                        <path
+                            d="M56.611 128.85l-.081 10.483h33.32v94.68H113.42v-94.68h33.32v-10.28c0-5.69-.122-10.444-.284-10.566c-.122-.162-20.399-.244-44.983-.203l-44.739.122l-.122 10.443z"
+                            fill="#333" />
+                        <path
+                            d="M206.567 118.108c6.501 1.626 11.459 4.51 16.01 9.224c2.357 2.52 5.851 7.112 6.136 8.209c.08.325-11.053 7.802-17.798 11.987c-.244.163-1.22-.894-2.317-2.52c-3.291-4.794-6.745-6.867-12.028-7.232c-7.76-.529-12.759 3.535-12.718 10.32c0 1.992.284 3.17 1.097 4.796c1.707 3.535 4.876 5.648 14.832 9.955c18.326 7.884 26.168 13.085 31.045 20.48c5.445 8.25 6.664 21.415 2.966 31.208c-4.063 10.646-14.14 17.88-28.323 20.277c-4.388.772-14.79.65-19.504-.203c-10.28-1.829-20.033-6.908-26.047-13.572c-2.357-2.601-6.949-9.387-6.664-9.875c.122-.162 1.178-.812 2.356-1.503c1.138-.65 5.446-3.13 9.509-5.486l7.355-4.267l1.544 2.276c2.154 3.291 6.867 7.802 9.712 9.305c8.167 4.308 19.383 3.698 24.909-1.26c2.357-2.153 3.332-4.388 3.332-7.68c0-2.966-.366-4.266-1.91-6.5c-1.99-2.845-6.054-5.243-17.595-10.24c-13.206-5.69-18.895-9.225-24.096-14.833c-3.007-3.25-5.852-8.452-7.03-12.8c-.975-3.616-1.22-12.678-.447-16.335c2.723-12.76 12.353-21.658 26.25-24.3c4.51-.853 14.994-.528 19.424.57z"
+                            fill="#333" />
+                    </svg>
+                    <h4>Typescript</h4>
+                </div>
+                <div class="skill angular">
+                    <i class="fab fa-angular"></i>
+                    <h4>Angular</h4>
+                </div>
+                <div class="skill wp">
+                    <i class="fab fa-wordpress"></i>
+                    <h4>Wordpress</h4>
+                </div>
+                <div id='skills'>Skills</div>
             </div>
         </div>
-        <div class="projects" id = 'projects'>Projects</div>
-        <div class="projects_wrap">
-            <div class="project kyiv-more">
-                <div class="bg_about">
-                    <span>My first real project. A newspaper website made with Wordpress/PHP.</span>
+        <div class="projects" id='projects'>Projects</div>
+        <div class="coding_langs">
+            <button class="coding_btn active" data-val = 'all'>All</button>
+            <button class="coding_btn" data-val = 'angular'>Angular</button>
+            <button class="coding_btn" data-val = 'javascript'>Javascript</button>
+            <button class="coding_btn" data-val = 'wordpress'>Wordpress</button>
+        </div>
+        <div class="projects_container">
+            <div class="project kyiv-more wordpress">
+                <img src="assets/kyiv-more.png">
+                <hr>
+                <span>My first real project. A newspaper website made with Wordpress/PHP.</span>
+                <div class="button_wrap">
                     <a href="https://kyiv-more.org.ua/">Check it out</a>
                 </div>
             </div>
-            <div class="project halloween">
-                <div class="bg_about">
-                    <span>Halloween themed shop with cart functionality. Made with Javascript</span>
+            <div class="project hal
+                    loween javascript">
+                <img src="assets/halloween.jpg">
+                <hr>
+                <span>Halloween themed shop with cart functionality. Made with Javascript</span>
+                <div class="button_wrap">
                     <a href="https://sane404.github.io/HalloweenShop/">Check it out</a>
                     <a href="https://github.com/Sane404/HalloweenShop">Check the code</a>
-                    
                 </div>
             </div>
-            <div class="project weather">
-                <div class="bg_about">
-                    <span>Weather app.Use map to select a city or  type in the city u would like to look at and watch the result. Made with Angular</span>
+            <div class="project weather angular">
+                <img src="assets/weather.jpg">
+                <hr>
+                <span>Weather app.Use map to select a city or type in the city you would like to look at and watch the
+                    result. Made with Angular</span>
+                <div class="button_wrap">
                     <a href="https://sane404.github.io/weather_app/home">Check it out</a>
                     <a href="https://github.com/Sane404/weather_app">Check the code</a>
                 </div>
             </div>
-            <div class="project library">
-                <div class="bg_about">
-                    <span>A library-like app where u can add your authors to it and their work aswell. Made with Angular/Firebase</span>
+            <div class="project library angular">
+                <img src="assets/library.png">
+                <hr>
+                <span>A library-like app where  you can add your authors to it and their work aswell. Made with
+                    Angular/Firebase</span>
+                <div class="button_wrap">
                     <a href="https://sane404.github.io/library/homepage">Check it out</a>
                     <a href="https://sane404.github.io/author_library/main">Check the code</a>
-                    
                 </div>
             </div>
-            <div class="project e_shop">
-                <div class="bg_about">
-                    <span>Shop app. Select items add them to the cart and finalize your order. Made with Angular</span>
+            <div class="project e_shop angular">
+                <img src="assets/eShop.png">
+                <hr>
+                <span>Shop app. Select items add them to the cart and finalize your order. Made with Angular</span>
+                <div class="button_wrap">
                     <a href="https://sane404.github.io/eShopAngular/shop">Check it out</a>
                     <a href="https://github.com/Sane404/eShopAngular">Check the code</a>
                 </div>
             </div>
-            <div class="project quiz">
-                <div class="bg_about">
-                    <span>Simple quiz app. Answer general questions and get your result. Made with Javascript</span>
+            <div class="project quiz javascript">
+                <img src="assets/quiz.jpg">
+                <hr>
+                <span>Simple quiz app. Answer general questions and get your result. Made with Javascript</span>
+                <div class="button_wrap">
                     <a href="https://sane404.github.io/SimpleQuiz/">Check it out</a>
                     <a href="https://github.com/Sane404/SimpleQuiz">Check the code</a>
                 </div>
             </div>
-
         </div>
-        <div class="contacts" id ='at_me'>Contact me</div>
+        <div class="contacts" id='at_me'>Contact me</div>
         <div class="contact_me">
+            <div class="form_wrap">
             <form action="https://formspree.io/f/mvovqnwd" method="POST">
                 <label for="email">
-                    Your email:
-                    
+                    Your name
+
+                </label>
+                <input type="text" name="name" id="name">
+                <label for="email">
+                    Your email
+
                 </label>
                 <input type="text" name="_replyto" id="email">
-                <label for ='message'>
-                    Your message:
-                    
+                <label for='message'>
+                    Your message
+
                 </label>
                 <textarea name="message" id='message'></textarea>
-                
+
                 <button type="submit">Send</button>
             </form>
+            <!-- <div class="form_message">
+                You can contact me via telegram link at the top of the screen or using the form below :)
+            </div> -->
+        </div>
+        
         </div>
     </main>
 
