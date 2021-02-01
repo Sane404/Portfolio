@@ -378,6 +378,11 @@ main{
     .burger{
         display: flex !important;
     }
+    .coding_langs{
+        button{
+            font-size: 16px;
+        }
+    }
     .nav_list{
         position: absolute;
         top:45px;
@@ -389,7 +394,12 @@ main{
         background-color: red;
         
         .nav_link{
-            background-color: dodgerblue;
+            background-color: var(--clr-sec);
+            a{
+                &:hover{
+                color: var(--clr-main) !important;
+                }
+            }
             &.mobile_visible{
                 transform: translateX(-100%); 
             }
@@ -430,6 +440,10 @@ main{
     }
     .skills_wrap{
         padding: 10px;
+    }
+    form{
+        padding: 10px;
+        flex-basis: 100% !important;
     }
 }
 
