@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   box-sizing: border-box;
-  --clr-main:#333;
+  --clr-main:#222;
   --clr-darkwhite: #f0f0f0;
-  --clr-sec:#af0202;
+  --clr-sec:#d80303;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -118,7 +118,11 @@ main #about_me .card_me .info .job_title {
   color: var(--clr-sec);
   font-size: 20px;
   font-style: italic;
+  font-weight: bold;
   text-transform: uppercase;
+}
+main #about_me .card_me .info .description {
+  font-size: 18px;
 }
 main #about_me .card_lang {
   flex-basis: 40%;
@@ -161,8 +165,8 @@ main .skills_wrap .wrapper {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 150px);
-  grid-template-areas: ". skill1 . skill2 . " "skill3 title title title skill4" ". skill5 . skill6 .";
+  grid-template-rows: repeat(5, 150px);
+  grid-template-areas: ". skill1 . skill2 . " ". . . . ." "skill3 title title title skill4" ". . . . ." ". skill5 . skill6 .";
 }
 main #skills {
   grid-area: title;
